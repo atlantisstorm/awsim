@@ -1,0 +1,17 @@
+{
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest"
+  },
+  "setupFilesAfterEnv": [
+    "<rootDir>/jest.setup.js"
+  ],
+  "testPathIgnorePatterns":[
+    "<rootDir>/build",
+    "<rootDir>/dist",
+    "<rootDir>/node_modules"
+  ],
+  "moduleNameMapper": {
+    "\\.(css|scss|png|jpg|gif)$": "identity-obj-proxy"
+  },
+  "snapshotSerializers": ["enzyme-to-json/serializer"]
+}

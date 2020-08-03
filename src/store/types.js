@@ -1,0 +1,8 @@
+// Emmm... action types.
+export const FETCH_DATA = "FETCH_DATA";
+export const FILTER_INSTANCES = "FILTER_INSTANCES";
+export const FILTER_UPDATE = "FILTER_UPDATE";
+export const MODAL_SET_DISPLAY = "MODAL_SET_DISPLAY";
+export const MODAL_SHOW_INSTANCE = "MODAL_SHOW_INSTANCE";
+export const REFRESH_DATA = "REFRESH_DATA";
+export const SORT_OPTIONS_SET = "SORT_OPTIONS_SET";

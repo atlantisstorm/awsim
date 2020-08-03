@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstancesBodyTr component should match snapshot 1`] = `
+<DocumentFragment>
+  <table>
+    <tbody>
+      <tr
+        class=""
+        data-instance-id="i-07ae1e2a36d2b88bf"
+        data-testid="show-instance-details"
+      >
+        <td
+          class="sorted"
+        >
+          ftp-dev.awsbox.es
+        </td>
+        <td
+          class=""
+        >
+          dev
+        </td>
+        <td
+          class=""
+        >
+          running
+        </td>
+        <td
+          class="launch-ssh js-launch-ssh"
+          data-ip-address="54.42.117.131"
+          data-target-platform=""
+          title="Launch remote connection"
+        >
+          54.42.117.131
+        </td>
+        <td
+          class="launch-ssh js-launch-ssh"
+          data-ip-address="192.168.34.117"
+          data-target-platform=""
+          title="Launch remote connection"
+        >
+          192.168.34.117
+        </td>
+        <td
+          class=""
+        />
+        <td
+          class=""
+        />
+        <td
+          class=""
+        >
+          i-07ae1e2a36d2b88bf
+        </td>
+        <td
+          class=""
+        >
+          ami-5442e32fd1ababf88
+        </td>
+        <td
+          class=""
+        >
+          t2.micro
+        </td>
+        <td
+          class=""
+        >
+          2019-08-14 15:08:39
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

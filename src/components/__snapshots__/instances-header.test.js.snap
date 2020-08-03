@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstancesHeader component should match snapshot 1`] = `
+<DocumentFragment>
+  <table>
+    <thead>
+      <tr>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Name 
+            </div>
+            <div
+              class="right"
+            >
+              ▲
+            </div>
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Environment 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              State Name 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Public Ip Address 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Private Ip Address 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Auto Scaling Group Name 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Platform 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Instance Id 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Image Id 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Instance Type 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Launch Time 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;

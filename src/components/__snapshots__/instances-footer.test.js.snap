@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstancesFooter component should match snapshot 1`] = `
+<DocumentFragment>
+  <table>
+    <tfoot>
+      <tr>
+        <td
+          colspan="12"
+        >
+          0 instances found.
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</DocumentFragment>
+`;

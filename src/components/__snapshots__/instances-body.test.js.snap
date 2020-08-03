@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstancesBody component should match snapshot 1`] = `
+<DocumentFragment>
+  <table>
+    <tbody />
+  </table>
+</DocumentFragment>
+`;

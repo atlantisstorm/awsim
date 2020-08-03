@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstancesHeaderTh component should match snapshot 1`] = `
+<DocumentFragment>
+  <table>
+    <thead>
+      <tr>
+        <th
+          class="{fieldName} {extra_class}"
+          data-testid="header-sort"
+        >
+          <div
+            class="title"
+          >
+            <div
+              class="left"
+            >
+              Environment 
+            </div>
+            <div
+              class="right"
+            />
+          </div>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</DocumentFragment>
+`;

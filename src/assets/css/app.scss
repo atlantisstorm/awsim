@@ -1,0 +1,269 @@
+$font: Verdana, Geneva, Tahoma, sans-serif;
+$radius: 5px;
+
+
+/* colours */
+$red: #990000;
+$gray_light: #cccccc;
+$gray_lighter: #dddddd;
+$gray_more_light: #eeeeee;
+$gray_even_lighter: #f3f3f3;
+$dark: #999999;
+$darker: #888888;
+$selected: #dcbf5f;
+
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  font-size: 10px;
+}
+
+.main-wrapper {
+  background-color: white;
+
+  #instances {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    table {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+      thead th,
+      tbody td,
+      tfoot td {
+        text-align: left;
+        border-bottom: $gray_lighter solid 1px;
+        border-right: $gray_lighter solid 1px;
+        padding: 5px;
+        background-color: $gray_more_light;
+      }
+    
+      thead {
+        tr {
+          height: 20px;
+          line-height: 20px;
+
+          th {
+            cursor: pointer;
+            div.title { 
+              div.left {
+                float: left;
+              }
+              div.right {
+                float: right;
+              }      
+            }
+          }
+  
+          th.sorted {
+            background-color: $gray_light;
+          }          
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            background-color: white;    
+          }
+
+          td.sorted {
+            background-color: $gray_even_lighter;
+          }
+
+          td.launch-ssh {
+            cursor: pointer;
+          }
+        }
+
+        tr:hover td {
+          background-color: $selected;
+        }
+        tr.clicked td {
+          background-color: $selected;
+        }
+      }
+    
+      tfoot td {
+        background-color: $gray_more_light;
+      }
+    }
+  }
+
+  #actions {
+    z-index: 100;    
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    min-height: 35px;
+    border-top: 1px solid $gray_light;
+    background-color: $gray_lighter;
+    box-shadow: 0px -2px 2px $dark;
+    padding: 5px 10px;
+  
+    #filters {
+      height: 35px;
+      float: left;
+  
+      .filter {
+        float: left;
+        border: 1px solid $gray_more_light;
+        background-color: $gray_even_lighter;
+        padding: 5px;
+        margin-right: 5px;
+  
+        span.label {
+          border: 1px solid $gray_more_light;
+        }
+  
+        select {}
+      }
+    }
+  
+    #refresh-container {
+      float: right;
+      height: 35px;
+      line-height: 35px;
+      border-left: 1px solid $red;
+      padding: 0px 10px;
+  
+      button {
+        height: 25px;
+        width: 140px;
+        margin-right: 10px;
+        font-weight: bold;
+        color: $red;
+        background-color: $gray_even_lighter;
+        cursor: pointer;
+        border-radius: $radius;
+      }
+  
+      button:hover {
+        color: $red;
+        background-color: $gray_even_lighter;
+      }
+    }
+  }
+
+  #loaded {
+    width: 1460px;
+    height: 100%;
+    margin-bottom: 70px;
+    padding: 5px 10px;
+  }
+
+  #loading {
+    width: 1280px;
+    height: 768px;
+  
+    img {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+     }
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.roundedTable {
+  border-radius: $radius;
+  border: 1px solid $gray_light;
+  border-spacing: 0;
+
+  tr:first-child {
+    td:first-child {
+      border-top-left-radius: $radius;
+    }
+
+    td:last-child {
+      border-top-right-radius: $radius;
+    }
+  }
+
+  tr:last-child { 
+    td:first-child {
+      border-bottom-left-radius: $radius;
+    }
+
+    td:last-child {
+      border-bottom-right-radius: $radius;
+    }
+  }
+}
+
+/* Context menu */
+.context-menu {
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 640px;
+  background: white;
+  box-shadow: 5px 5px 5px $darker;
+  padding: 10px;
+  margin-bottom: 80px;
+
+  table {
+    width: 100%;
+    tr td.header {
+      background-color: $gray_light;
+      padding:5px;
+      text-align: left;
+      width: 100%;
+    }
+
+    tbody tr { 
+      td {
+        padding:5px;
+      }
+
+      td.title {
+        background-color: $gray_lighter;
+      }
+
+      td.data {
+        background-color: $gray_more_light;
+      }
+    }
+  }
+}
+
+h1 {
+  font-family: $font;
+  font-size: 21px;
+  font-weight: 200;
+  color: $red;
+}
+
+@media screen and (prefers-color-scheme: light), screen and (prefers-color-scheme: no-preference) {
+  /* Light moe */
+  body {
+    color: black;;
+    background-color: white;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* Dark moe */
+  body {
+    color: white;
+    background-color: black;
+  }
+}

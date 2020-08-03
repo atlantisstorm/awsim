@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component starts with a count of 0 1`] = `
+<table>
+  <tbody>
+    <ModalDetailsRow
+      data="redhot"
+      title="fishbone"
+    >
+      <tr>
+        <td
+          className="title"
+        >
+          fishbone
+        </td>
+        <td
+          className="data"
+        >
+          redhot
+        </td>
+      </tr>
+    </ModalDetailsRow>
+  </tbody>
+</table>
+`;
