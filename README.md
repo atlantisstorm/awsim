@@ -1,0 +1,2 @@
+# awsim
+AWS instance manager
