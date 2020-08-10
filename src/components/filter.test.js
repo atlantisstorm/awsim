@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent } from "@testing-library/react";
 import Filter from './filter';
 import extractInstances from '../fixtures/extracted-instances';
-import { defaultState } from '../store/reducer';
+import { defaultState } from '../store/model';
 import { FILTER_UPDATE } from '../store/types';
 import { RenderWithProvider } from './test-helper';
 

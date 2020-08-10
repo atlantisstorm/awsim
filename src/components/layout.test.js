@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent } from "@testing-library/react";
 import Layout from './layout';
-import { defaultState } from '../store/reducer';
+import { defaultState } from '../store/model';
 import { RenderWithProvider } from './test-helper';
 import {
   FETCH_DATA,

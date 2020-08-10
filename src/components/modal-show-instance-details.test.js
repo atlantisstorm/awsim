@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent } from "@testing-library/react";
 import ModalShowInstanceDetails from './modal-show-instance-details';
 import defaultInstanceRawData from '../fixtures/default-instance-raw-data';
-import { defaultState } from '../store/reducer';
+import { defaultState } from '../store/model';
 import { MODAL_SET_DISPLAY } from '../store/types';
 import { RenderWithProvider } from './test-helper';
 

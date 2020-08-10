@@ -6,7 +6,7 @@
     "<rootDir>/jest.setup.js"
   ],
   "testPathIgnorePatterns":[
-    "<rootDir>/build",
+    "<rootDir>/builds",
     "<rootDir>/dist",
     "<rootDir>/node_modules"
   ],
