@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@babel/preset-env": "^7.10.4",
-    "aws-sdk": "^2.709.0",
+    "aws-sdk": "^2.1362.0",
     "electron-devtools-installer": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
